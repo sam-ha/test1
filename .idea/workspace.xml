@@ -18,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="v01" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -61,6 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hello" />
         <item itemvalue="Python.hello" />
       </list>
     </recent_temporary>
@@ -115,6 +121,14 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="2523" height="343" key="GridCell.Tab.0.right/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339644968" />
+    <state x="256" y="114" key="MergeDialog" timestamp="1578346699756">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="256" y="114" key="MergeDialog/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578346699756" />
+    <state x="788" y="214" key="MultipleFileMergeDialog" timestamp="1578346699806">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="788" y="214" key="MultipleFileMergeDialog/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578346699806" />
     <state x="100" y="123" width="2360" height="1137" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578340050805">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -123,5 +137,9 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="100" y="123" width="2360" height="1137" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578340050806" />
+    <state x="914" y="218" key="git4idea.branch.GitSmartOperationDialog" timestamp="1578346671209">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="914" y="218" key="git4idea.branch.GitSmartOperationDialog/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578346671209" />
   </component>
 </project>
