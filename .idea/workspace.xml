@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a7846ec-80cf-4bce-8a9b-9bd9561a97b7" name="Default Changelist" comment="" />
+    <list default="true" id="7a7846ec-80cf-4bce-8a9b-9bd9561a97b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1W2BYIEUw0tFpkqpKUbzyiATvEP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,6 +36,34 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/U3/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.hello" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -51,5 +89,39 @@
       <updated>1578337854798</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="865" y="92" key="#hello" timestamp="1578339641251">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="865" y="92" key="#hello/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339641251" />
+    <state x="100" y="123" width="2360" height="1137" key="DiffContextDialog" timestamp="1578339775945">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="100" y="123" width="2360" height="1137" key="DiffContextDialog/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339775945" />
+    <state width="2523" height="343" key="GridCell.Tab.0.bottom" timestamp="1578339644968">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2523" height="343" key="GridCell.Tab.0.bottom/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339644968" />
+    <state width="2523" height="343" key="GridCell.Tab.0.center" timestamp="1578339644967">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2523" height="343" key="GridCell.Tab.0.center/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339644967" />
+    <state width="2523" height="343" key="GridCell.Tab.0.left" timestamp="1578339644967">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2523" height="343" key="GridCell.Tab.0.left/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339644967" />
+    <state width="2523" height="343" key="GridCell.Tab.0.right" timestamp="1578339644968">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2523" height="343" key="GridCell.Tab.0.right/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339644968" />
+    <state x="100" y="123" width="2360" height="1137" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578340050805">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="100" y="123" width="2360" height="1137" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578340050805" />
+    <state x="100" y="123" width="2360" height="1137" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1578340050806">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="100" y="123" width="2360" height="1137" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578340050806" />
   </component>
 </project>
