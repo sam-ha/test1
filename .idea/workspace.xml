@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a7846ec-80cf-4bce-8a9b-9bd9561a97b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
-    </list>
+    <list default="true" id="7a7846ec-80cf-4bce-8a9b-9bd9561a97b7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578340084258</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test4">
+      <created>1578340273447</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578340273447</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,6 +144,10 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="580" y="244" key="Vcs.Push.Dialog.v2/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578340281249" />
+    <state x="100" y="123" width="2360" height="1137" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1578341211964">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="100" y="123" width="2360" height="1137" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578341211964" />
     <state x="100" y="123" width="2360" height="1137" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578340050805">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
