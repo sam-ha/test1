@@ -18,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -88,33 +93,53 @@
       <option name="presentableId" value="Default" />
       <updated>1578337854798</updated>
     </task>
+    <task id="LOCAL-00001" summary="test4">
+      <created>1578340084258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578340084258</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test4" />
+    <option name="LAST_COMMIT_MESSAGE" value="test4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="865" y="92" key="#hello" timestamp="1578339641251">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="865" y="92" key="#hello/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339641251" />
+    <state x="693" y="92" key="CommitChangelistDialog2" timestamp="1578340084151">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="693" y="92" key="CommitChangelistDialog2/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578340084151" />
     <state x="100" y="123" width="2360" height="1137" key="DiffContextDialog" timestamp="1578339775945">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="100" y="123" width="2360" height="1137" key="DiffContextDialog/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339775945" />
-    <state width="2523" height="343" key="GridCell.Tab.0.bottom" timestamp="1578339644968">
+    <state width="2523" height="343" key="GridCell.Tab.0.bottom" timestamp="1578340164739">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2523" height="343" key="GridCell.Tab.0.bottom/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339644968" />
-    <state width="2523" height="343" key="GridCell.Tab.0.center" timestamp="1578339644967">
+    <state width="2523" height="343" key="GridCell.Tab.0.bottom/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578340164739" />
+    <state width="2523" height="343" key="GridCell.Tab.0.center" timestamp="1578340164738">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2523" height="343" key="GridCell.Tab.0.center/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339644967" />
-    <state width="2523" height="343" key="GridCell.Tab.0.left" timestamp="1578339644967">
+    <state width="2523" height="343" key="GridCell.Tab.0.center/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578340164738" />
+    <state width="2523" height="343" key="GridCell.Tab.0.left" timestamp="1578340164737">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2523" height="343" key="GridCell.Tab.0.left/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339644967" />
-    <state width="2523" height="343" key="GridCell.Tab.0.right" timestamp="1578339644968">
+    <state width="2523" height="343" key="GridCell.Tab.0.left/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578340164737" />
+    <state width="2523" height="343" key="GridCell.Tab.0.right" timestamp="1578340164738">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2523" height="343" key="GridCell.Tab.0.right/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339644968" />
+    <state width="2523" height="343" key="GridCell.Tab.0.right/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578340164738" />
+    <state x="580" y="244" key="Vcs.Push.Dialog.v2" timestamp="1578340088987">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="580" y="244" key="Vcs.Push.Dialog.v2/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578340088987" />
     <state x="100" y="123" width="2360" height="1137" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578340050805">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
