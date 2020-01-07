@@ -1,4 +1,4 @@
 # first git
-print("hello worlrrrrd6")
-
+print("hello worltfftrrrrd6")
+print("d")
 print("hello world64")
