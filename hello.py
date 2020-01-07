@@ -1,2 +1,2 @@
 # first git
-print("hello world6cxzvfz")
+print("hello world6")
