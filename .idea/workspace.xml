@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7a7846ec-80cf-4bce-8a9b-9bd9561a97b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,26 @@
       <option name="presentableId" value="Default" />
       <updated>1578337854798</updated>
     </task>
+    <task id="LOCAL-00001" summary="rt">
+      <created>1578357583288</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578357583288</updated>
+    </task>
+    <task id="LOCAL-00002" summary="rt">
+      <created>1578357631100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578357631100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rt" />
+    <option name="LAST_COMMIT_MESSAGE" value="rt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="865" y="92" key="#hello" timestamp="1578339641251">
