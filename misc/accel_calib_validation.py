@@ -7,6 +7,8 @@ from matplotlib import pyplot as plt
 accel_ref_data_loc= r'/Users/samhajhashemi/Downloads/ref_accel_translated_static_6pos.csv'
 file=pd.read_csv(accel_ref_data_loc)
 ref_xn_x_raw=(file[file['pos_num']==1]['accel_x']).mean()
+ref_xn_y_raw=(file[file['pos_num']==1]['accel_y']).mean()
+ref_xn_z_raw=(file[file['pos_num']==1]['accel_z']).mean()
 ref_xp_x_raw=(file[file['pos_num']==2]['accel_x']).mean()
 ref_xp_y_raw=(file[file['pos_num']==2]['accel_y']).mean()
 ref_xp_z_raw=(file[file['pos_num']==2]['accel_z']).mean()
@@ -22,6 +24,8 @@ ref_zn_z_raw=(file[file['pos_num']==5]['accel_z']).mean()
 ref_zp_x_raw=(file[file['pos_num']==6]['accel_x']).mean()
 ref_zp_y_raw=(file[file['pos_num']==6]['accel_y']).mean()
 ref_zp_z_raw=(file[file['pos_num']==6]['accel_z']).mean()
+
+
 
 bias_ref=np.mat([0.5*(ref_xp_x_raw+ref_xn_x_raw), 0.5*(ref_yp_y_raw+
                         ref_yn_y_raw), 0.5*(ref_zp_z_raw+ref_zn_z_raw)])
