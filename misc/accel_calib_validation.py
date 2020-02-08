@@ -1,10 +1,13 @@
 # this is the code to validate accel calibration routine
-
+import os
 import numpy as np
 from numpy.linalg import inv
 import pandas as pd
 from matplotlib import pyplot as plt
-accel_ref_data_loc= r'/Users/samhajhashemi/Downloads/ref_accel_translated_static_6pos.csv'
+file_loc1='/home/samhajhashemi/Downloads/IMU'
+file_loc2='ref_accel_translated_static_6pos.csv'
+os.path.join(file_loc1,file_loc2)
+accel_ref_data_loc= os.path.join(file_loc1,file_loc2)
 file=pd.read_csv(accel_ref_data_loc)
 ref_xn_x_raw=(file[file['pos_num']==1]['accel_x']).mean()
 ref_xn_y_raw=(file[file['pos_num']==1]['accel_y']).mean()
@@ -33,7 +36,10 @@ s_ref=np.mat([[ref_xp_x_raw-bias_ref[0,0], ref_yp_x_raw-bias_ref[0,0], ref_zp_x_
   [ref_xp_y_raw-bias_ref[0,1], ref_yp_y_raw-bias_ref[0,1], ref_zp_y_raw-bias_ref[0,1]],
   [ref_xp_z_raw-bias_ref[0,2], ref_yp_z_raw-bias_ref[0,2], ref_zp_z_raw-bias_ref[0,2]]])
 
-accel_dut_data_loc= r'/Users/samhajhashemi/Downloads/dut_accel_translated_static_6pos.csv'
+file_loc1='/home/samhajhashemi/Downloads/IMU'
+file_loc2='dut_accel_translated_static_6pos.csv'
+accel_dut_data_loc= os.path.join(file_loc1,file_loc2)
+print(accel_dut_data_loc)
 file=pd.read_csv(accel_dut_data_loc)
 dut_xn_x_raw=(file[file['pos_num']==1]['accel_x']).mean()
 dut_xn_y_raw=(file[file['pos_num']==1]['accel_y']).mean()

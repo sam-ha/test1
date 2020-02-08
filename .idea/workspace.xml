@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a7846ec-80cf-4bce-8a9b-9bd9561a97b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
+    <list default="true" id="7a7846ec-80cf-4bce-8a9b-9bd9561a97b7" name="Default Changelist" comment="rt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/.accel_calib_validation.py.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/accel_calib_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/misc/accel_calib_validation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +42,52 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R3/R3/airleak_weight_baro" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Poly_fit_test">
+    <configuration name="Poly_fit_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/misc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/misc/Poly_fit_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="accel_calib_validation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/misc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/misc/accel_calib_validation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -49,7 +95,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/U3/venv/bin/python" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../U3/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -63,9 +109,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="moving_average" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/misc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/misc/moving_average.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hello" />
+        <item itemvalue="Python.Poly_fit_test" />
+        <item itemvalue="Python.moving_average" />
+        <item itemvalue="Python.accel_calib_validation" />
         <item itemvalue="Python.hello" />
         <item itemvalue="Python.hello" />
       </list>
@@ -82,6 +151,7 @@
         </serviceView>
       </list>
     </option>
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -120,32 +190,61 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="865" y="92" key="#hello/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339641251" />
-    <state x="693" y="92" key="CommitChangelistDialog2" timestamp="1578357631012">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="3253" y="70" width="1069" height="1091" key="CommitChangelistDialog2" timestamp="1580337601360">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state x="693" y="92" key="CommitChangelistDialog2/0.23.2560.1417/-2560.23.2560.1345/2560.212.1680.1027@0.23.2560.1417" timestamp="1578357631012" />
     <state x="693" y="92" key="CommitChangelistDialog2/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578346736459" />
+    <state x="3253" y="70" width="1069" height="1091" key="CommitChangelistDialog2/2560.0.2560.1440/0.0.2560.1393/371.1440.1920.1080@2560.0.2560.1440" timestamp="1580337601360" />
     <state x="100" y="123" width="2360" height="1137" key="DiffContextDialog" timestamp="1578357688818">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="100" y="123" width="2360" height="1137" key="DiffContextDialog/0.23.2560.1417/-2560.23.2560.1345/2560.212.1680.1027@0.23.2560.1417" timestamp="1578357688818" />
     <state x="100" y="123" width="2360" height="1137" key="DiffContextDialog/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339775945" />
-    <state width="2523" height="343" key="GridCell.Tab.0.bottom" timestamp="1578339644968">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="3523" y="345" width="626" height="707" key="FileChooserDialogImpl" timestamp="1581013455751">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3523" y="345" width="626" height="707" key="FileChooserDialogImpl/2560.0.2560.1440/0.0.2560.1393/371.1440.1920.1080@2560.0.2560.1440" timestamp="1581013455751" />
+    <state width="2531" height="402" key="GridCell.Tab.0.bottom" timestamp="1581120616738">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state width="2523" height="343" key="GridCell.Tab.0.bottom/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339644968" />
-    <state width="2523" height="343" key="GridCell.Tab.0.center" timestamp="1578339644967">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="2531" height="402" key="GridCell.Tab.0.bottom/2560.0.2560.1440/0.0.2560.1393/371.1440.1920.1080@2560.0.2560.1440" timestamp="1581120616738" />
+    <state width="1889" height="231" key="GridCell.Tab.0.bottom/2560.0.2560.1440/0.0.2560.1440/371.1440.1920.1080@371.1440.1920.1080" timestamp="1580867507655" />
+    <state width="2531" height="402" key="GridCell.Tab.0.center" timestamp="1581120616738">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state width="2523" height="343" key="GridCell.Tab.0.center/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339644967" />
-    <state width="2523" height="343" key="GridCell.Tab.0.left" timestamp="1578339644967">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="2531" height="402" key="GridCell.Tab.0.center/2560.0.2560.1440/0.0.2560.1393/371.1440.1920.1080@2560.0.2560.1440" timestamp="1581120616738" />
+    <state width="1889" height="231" key="GridCell.Tab.0.center/2560.0.2560.1440/0.0.2560.1440/371.1440.1920.1080@371.1440.1920.1080" timestamp="1580867507655" />
+    <state width="2531" height="402" key="GridCell.Tab.0.left" timestamp="1581120616737">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state width="2523" height="343" key="GridCell.Tab.0.left/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339644967" />
-    <state width="2523" height="343" key="GridCell.Tab.0.right" timestamp="1578339644968">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="2531" height="402" key="GridCell.Tab.0.left/2560.0.2560.1440/0.0.2560.1393/371.1440.1920.1080@2560.0.2560.1440" timestamp="1581120616737" />
+    <state width="1889" height="231" key="GridCell.Tab.0.left/2560.0.2560.1440/0.0.2560.1440/371.1440.1920.1080@371.1440.1920.1080" timestamp="1580867507655" />
+    <state width="2531" height="402" key="GridCell.Tab.0.right" timestamp="1581120616738">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state width="2523" height="343" key="GridCell.Tab.0.right/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578339644968" />
+    <state width="2531" height="402" key="GridCell.Tab.0.right/2560.0.2560.1440/0.0.2560.1393/371.1440.1920.1080@2560.0.2560.1440" timestamp="1581120616738" />
+    <state width="1889" height="231" key="GridCell.Tab.0.right/2560.0.2560.1440/0.0.2560.1440/371.1440.1920.1080@371.1440.1920.1080" timestamp="1580867507655" />
+    <state width="2531" height="402" key="GridCell.Tab.1.bottom" timestamp="1581120616738">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2531" height="402" key="GridCell.Tab.1.bottom/2560.0.2560.1440/0.0.2560.1393/371.1440.1920.1080@2560.0.2560.1440" timestamp="1581120616738" />
+    <state width="2531" height="402" key="GridCell.Tab.1.center" timestamp="1581120616738">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2531" height="402" key="GridCell.Tab.1.center/2560.0.2560.1440/0.0.2560.1393/371.1440.1920.1080@2560.0.2560.1440" timestamp="1581120616738" />
+    <state width="2531" height="402" key="GridCell.Tab.1.left" timestamp="1581120616738">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2531" height="402" key="GridCell.Tab.1.left/2560.0.2560.1440/0.0.2560.1393/371.1440.1920.1080@2560.0.2560.1440" timestamp="1581120616738" />
+    <state width="2531" height="402" key="GridCell.Tab.1.right" timestamp="1581120616738">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2531" height="402" key="GridCell.Tab.1.right/2560.0.2560.1440/0.0.2560.1393/371.1440.1920.1080@2560.0.2560.1440" timestamp="1581120616738" />
     <state x="256" y="114" key="MergeDialog" timestamp="1578346699756">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -154,6 +253,10 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="788" y="214" key="MultipleFileMergeDialog/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578346699806" />
+    <state x="3121" y="419" width="1097" height="733" key="SettingsEditor" timestamp="1581110645528">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3121" y="419" width="1097" height="733" key="SettingsEditor/2560.0.2560.1440/0.0.2560.1393/371.1440.1920.1080@2560.0.2560.1440" timestamp="1581110645528" />
     <state x="100" y="123" width="2360" height="1217" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1578357688819">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -166,9 +269,32 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="100" y="123" width="2360" height="1137" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578340050806" />
+    <state x="2560" y="115" width="1285" height="1166" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580252676360">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2560" y="115" width="1285" height="1166" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2560.0.2560.1440/0.0.2560.1393/371.1440.1920.1080@2560.0.2560.1440" timestamp="1580252676360" />
+    <state x="3196" y="316" width="1279" height="765" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580253207337">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3196" y="316" width="1279" height="765" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/2560.0.2560.1440/0.0.2560.1393/371.1440.1920.1080@2560.0.2560.1440" timestamp="1580253207337" />
     <state x="914" y="218" key="git4idea.branch.GitSmartOperationDialog" timestamp="1578346671209">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="914" y="218" key="git4idea.branch.GitSmartOperationDialog/0.23.2560.1417/-2560.23.2560.1417/2560.212.1680.1027@0.23.2560.1417" timestamp="1578346671209" />
+    <state x="2866" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1580256861514">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2866" y="-2" width="1009" height="1470" key="search.everywhere.popup/2560.0.2560.1440/0.0.2560.1393/371.1440.1920.1080@2560.0.2560.1440" timestamp="1580256861514" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
