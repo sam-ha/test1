@@ -165,7 +165,7 @@ class temperature_nonlinearity_check(object):
                     self.gy_fitted_x, self.gy_fitted_y, '+',
                     self.gz_fitted_x, self.gz_fitted_y, '+')
         axs[i].set_xlabel("Temperature", fontsize=15)
-        axs[i].set_ylabel("Accelerometer_Temp_Fit", fontsize=15)
+        axs[i].set_ylabel("Gyroscope_Temp_Fit", fontsize=15)
         axs[i].legend(('gx_smoothed', 'gy_smoothed', 'gz_smoothed',
                        'gx_linear_fit', 'gy_linear_fit', 'gz_linear_fit'))
 
@@ -182,16 +182,10 @@ class temperature_nonlinearity_check(object):
     plt.suptitle(self.input_log_file_name)
     plt.show()
 
-    # plot_filepath = os.path.join(results_img, "plot_%i.png" %(j))
-    # j+=1
-    # plt.savefig(plot_filepath)
-    # plt.clf()
-
-
-"""
+""""
 if __name__ == "__main__":
 
-  path ="/home/samhajhashemi/Downloads/IMU/TNL/passing/0_IMUTempCalibration_sns_cal_logs 251.txt"
+  # path ="/home/samhajhashemi/Downloads/IMU/TNL/passing/0_IMUTempCalibration_sns_cal_logs 210.txt"
   tnl = temperature_nonlinearity_check(path)
   ax, ay, az, gx, gy, gz, temperature_org = tnl.read_input_log()
   tnl.interpolate_temp_accel()
@@ -201,12 +195,13 @@ if __name__ == "__main__":
   axr, ayr, azr, gxr, gyr, gzr = tnl.linear_fit_residual_all()
   print(axr, ayr, azr, gxr, gyr, gzr)
   tnl.plot_results()
+
 """
 
 """
 # path = "/home/samhajhashemi/Downloads/IMU/TNL/MP Gyro TCO FAILS/F2/"
 # path = "/home/samhajhashemi/Downloads/IMU/TNL/passing/"
-path = "/home/samhajhashemi/Downloads/IMU/TNL/MP Gyro TCO FAILS/C2"
+path = "/home/samhajhashemi/Downloads/IMU/TNL/MP Gyro TCO FAILS/F2"
 
 file_name=[]
 residual_ax_full = []
@@ -297,17 +292,46 @@ plt.ylabel('Frequency',fontsize=20)
 plt.hist(residual_gz_full, bins=30, range=[0,max(residual_gz_full)*1.1], alpha=0.5, histtype='bar', ec='black')
 plt.grid()
 plt.show()
+
+"""
+"""
+output=pd.read_csv('/home/samhajhashemi/Downloads/IMU/TNL/MP Gyro TCO FAILS/F2/output.csv')
+# output=pd.read_csv('/home/samhajhashemi/Downloads/IMU/TNL/output.csv')
+residual_ax_full = output.residual_ax_full
+residual_ay_full = output.residual_ay_full
+residual_az_full = output.residual_az_full
+residual_gx_full = output.residual_gx_full
+residual_gy_full = output.residual_gy_full
+residual_gz_full = output.residual_gz_full
+for param in [residual_ax_full, residual_ay_full, residual_az_full,
+              residual_gx_full, residual_gy_full, residual_gz_full]:
+  print("{0:.3f}".format(np.mean(param)), "{0:.3f}".format(np.std(param)),
+        "{0:.3f}".format(np.mean(param)+np.std(param)*6),
+        "{0:.3f}".format(np.min(param)), "{0:.3f}".format(np.max(param)))
+stat="/home/samhajhashemi/Downloads/IMU/TNL/statistics.csv"
+
+
+# with open(stat, 'w') as f:
+#   for param in [residual_ax_full, residual_ay_full, residual_az_full,
+#                 residual_gx_full, residual_gy_full, residual_gz_full]:
+#     print("{0:.3f}".format(np.mean(param)),',', "{0:.3f}".format(np.std(param)),',',
+#           "{0:.3f}".format(np.mean(param) + np.std(param) * 6),',',
+#           "{0:.3f}".format(np.min(param)),',', "{0:.3f}".format(np.max(param)), file=f)
+# print(len(residual_gx_full))
+# print(len([i for i in residual_gx_full if i > 0.15]))
+# print(len([i for i in residual_gy_full if i > 0.15]))
+# print(len([i for i in residual_gz_full if i > 0.15]))
+
+with open(stat, 'a+') as f:
+  for i in np.arange(len(output.residual_gz_full)):
+    if output.residual_gz_full[i]<0.15:
+      print(output.file_name[i])
+      f.write(output.file_name[i] + "\n")
+      
+print(output[output.residual_gz_full < 0.15].file_name[1])
+f.close()
 """
 
-output=pd.read_csv('/home/samhajhashemi/Downloads/IMU/TNL/MP Gyro TCO FAILS/C2/output.csv')
-residual_gz_full = output.residual_gz_full
-print(np.mean(residual_gz_full))
-print(np.std(residual_gz_full))
-print(np.mean(residual_gz_full)+np.std(residual_gz_full)*6)
-# print(output[output.residual_gz_full==output.residual_gz_full.max()].file_name)
-plt.title('Gyro_Z',fontsize=20)
-plt.xlabel('Linear_Residual',fontsize=20)
-plt.ylabel('Frequency',fontsize=20)
-plt.hist(residual_gz_full, bins=30, range=[0,max(residual_gz_full)*1.1], alpha=0.5, histtype='bar', ec='black')
-plt.grid()
-plt.show()
+temp_test=np.linspace(25, 40, 1000)
+
+print(x)
