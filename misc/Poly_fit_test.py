@@ -185,7 +185,8 @@ class temperature_nonlinearity_check(object):
 
 if __name__ == "__main__":
 
-  path ="/home/samhajhashemi/Downloads/IMU/TNL/passing/0_IMUTempCalibration_sns_cal_logs 210.txt"
+  # path ="/home/samhajhashemi/Downloads/IMU/TNL/passing/0_IMUTempCalibration_sns_cal_logs 210.txt"
+  path = "/home/samhajhashemi/R3/R3/IMUTCAL/evt/0_IMUTempCalibration_sns_cal_logs.txt"
   tnl = temperature_nonlinearity_check(path)
   ax, ay, az, gx, gy, gz, temperature_org = tnl.read_input_log()
   tnl.interpolate_temp_accel()
